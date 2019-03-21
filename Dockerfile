@@ -75,3 +75,5 @@ rm -rf opencv && \
 npm install -g opencv4nodejs --unsafe-perm
 
 RUN npm install -g face-recognition --unsafe-perm
+
+ENV NODE_PATH=/usr/lib/node_modules
